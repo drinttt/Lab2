@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        table,tr,td{
+            border: solid 1px;
+        }
+    </style>
+
+    <h1>เข้าสู่ระบบ</h1>
+    <form action="Lab2.32.html" method="get">
+        <table>
+            <tr>
+                <td>Username:</td>
+                <td>
+                    <input
+                        type="text"
+                        autofocus required
+                    >
+                </td>
+            </tr>
+
+            <tr>
+                <td>Password:</td>
+                <td>
+                    <input
+                        type="password"
+                        required
+                    >
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    กรุณาพิมพ์ตามตัวเลขที่ปรากฎ:<br>
+                    1559<br>
+                    <input
+                        type="text"
+                        pattern="1559"
+                        required
+                        title="กรุณากรอกให้ถูกต้อง"
+                    >
+                </td>
+            </tr>
+        </table>
+        <br>
+        <input
+            type="image"
+            width="90"
+            height="40"
+            src="https://www.freeiconspng.com/uploads/login-button-png-15.png"
+        >
+    </form>
+</body>
+</html>
